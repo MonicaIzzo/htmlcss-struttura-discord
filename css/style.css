@@ -6,7 +6,7 @@ box-sizing: border-box;
 } 
 
 /* Custom PROPERTIES */
-.root {
+:root {
     --azzurro: #add8e6;
     --orancione: #daa520;
     --bluscuro: #00008b;
@@ -17,10 +17,7 @@ box-sizing: border-box;
     --acquamarina: #20b2aa;
     --grigio: #dddcdc;
 
-    --margin: 20px;
-    --padding: 20px;
-    --width-min: 150px;
-    --height-min: 100px;
+    --space: 30px;
 }
 
 
@@ -28,39 +25,36 @@ box-sizing: border-box;
 
 /* Generics */
 body {
-
 }
 
 
 
 /* Utilties */
 .cointainer {
-    min-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 
+
 /* Header */
 .top-header {
-    background-color: #20b2aa;
+    background-color: var(--azzurro);
     height: 100px;
-    display: flex;
-    align-items: center;
-    
+    padding: 25px 0;
 }
 
 .nav {
-    background-color: #daa520;
+    background-color: var(--orancione);
     text-align: center;
-    display: flex;
-    align-items: center;
     height: 50px;
     line-height: 50px;
+    display: flex;
+    height: 50px;
 
 }
 
 .sub-nav {
-    border: 1px solid #FF0000;
-    align-items: center;
+    border: 2px dotted #FF0000;
     height: 100%;
 }
 
@@ -72,9 +66,18 @@ body {
     width: 60%;
 }
 
+
+/* Jumbotron */
 #jumbotron {
     height: 400px;
     background-color: #00008b;
+    padding: var(--space)
+   
+}
+.jumbotron-txt {
+    background-color: #ffc0cb;
+    height: 100%;
+    margin: 0 auto;
 }
 
 /* Main */
