@@ -1,0 +1,47 @@
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+/* Custom PROPERTIES */
+.root {
+    --azzurro: #add8e6;
+    --orancione: #daa520;
+    --bluscuro: #00008b;
+    --blue: #1e90ff;
+    --rosa: #ffc0cb;
+    --verde: #228b22;
+    --rosso: #FF0000;
+    --acquamarina: #20b2aa;
+    --grigio: #dddcdc;
+
+    --margin: 20px;
+    --padding: 20px;
+}
+
+
+
+
+/* Generics */
+body {
+
+}
+
+
+
+/* Utilties */
+.cointainer{
+    max-width: 1140px;
+}
+.flex{
+    display: flex;
+}
+
+
+/* Header */
+
+/* Main */
+
+/* Footer */
