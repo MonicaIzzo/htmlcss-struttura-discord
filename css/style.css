@@ -136,14 +136,12 @@ footer {
     background-color: #000;
     height: 400px;
 }
-
 .footer-top  {
     width: 100%;
     border-bottom: #add8e6 solid 2px;
     color: white;
     padding: var(--space);
  }
-
  .footer-bottom {
     width: 100%;
     color: white;
